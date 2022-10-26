@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TED: Ideas worth spreading</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- BOOTSTRAP AND BOOTSTRAP ICONS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="static/slick/slick.css"/> 
+
+    <script src="static/js/scripts.js"></script>
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand py-0 ms-3" style="font-size: 30px; font-weight: bold;">TED</a>
+            <p class="navbar-text text-muted">Ideas worth spreading</p>
+           <div class="navbar-collapse d-sm-inline-flex justify-content-end">
+                <ul class="navbar-nav d-sm-inline-flex justify-content-end">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-dark">WATCH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-dark">DISCOVER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-dark">ATTEND</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-dark">PARTICIPATE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-dark">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-dark">SIGN IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-light">MEMBERSHIP</a>
+                    </li>
+                    <i class="bi bi-search"></i>
+                </ul>
+           </div>
+        </div>
+    </nav>
+    <div class="below-nav">
+        <div class="container slide1">
+            <!-- <div class=" ms-5 mt-3 card-body"> 
+                <h3 class="card-title">Become a TED Member</h3>
+                <p class="card-text" style="font-size: 17px;">Engage with TED in a whole new way. TED Members earn exclusive access to unforgettable events with big names from the TED stage, inspiring conversations with a global community, and more.</p>
+                <a href="#" class="card-link btn">
+                    Enroll Now
+                    <i class="ms-1 bi bi-arrow-right"></i>
+                </a>
+            </div> -->
+            <div class=" ms-5 mt-3 card-body"> 
+                <h3 class="card-title">Is it Alzheimer’s or normal forgetting?</h3>
+                <p class="card-text" style="font-size: 17px;">Learn how to boost your brain + memory with Lisa Genova, neuroscientist.</p>
+                <a href="#" class="card-link btn">
+                    Enroll Now
+                    <i class="ms-1 bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="bg-logo">
+            
+        </div>
+    </div>
+    <div class="featured mt-5">
+        <div class="container" style="width: 50%;">
+            <h4 class="ms-5 mt-3 card-header">Featured</h4>
+            <div class=" ms-5 mt-3 card-body" style="color: black;"> 
+                <h3 class="card-title">Why having fun is the secret to a healthier life</h3>
+                <p class="card-text" style="font-size: 17px;">Having fun isn't just enjoyable -- it's essential to a happy and healthy life. Science journalist Catherine Price proposes a new definition of "fun" and shares easy, evidence-backed ways to weave playfulness, flow and connection into your everyday life</p>
+                <a href="#" class="card-link btn">Watch Now</a>
+            </div>
+        </div>
+        <div class="featured-img" style="width: 50%;">
+            <img src="static/images/CatherinePrice_2022-embed.jpg" alt="">
+        </div>
+    </div>
+    <div class="featured-articles-with-arrow">
+        <!-- <a class="prev" onclick="plusSlide(-1, 3, event)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1, 3, event)">&#10095;</a> -->
+        <div class="featured-articles">
+            <div class="card show border-0">
+                <img src="static/images/AlRoker_AlGore_DavidBiello_2021T-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title card-headers">AL ROKER, AL GORE, DAVID BIELLO AND LATIF NASSER</p>
+                    <h2 class="card-text">The science of extreme weather -- and how to reduce the harm</h2>
+                </div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/IsabelleBoemeke_2022-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title card-headers">ISABELLE BOEMEKE</h4>
+                    <h2 class="card-text">Nuclear power is our best hope to ditch fossil fuels</h2>
+                </div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/738646b40f9943d1c02f4ad3d1c16909511a9a91_1600x1200.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title card-headers">SVANTE PÄÄBO</h4>
+                    <h2 class="card-text">DNA clues to our inner neanderthal</h2>
+                </div>
+            </div>
+            <div class="card border-0">
+                <img src="static/images/738646b40f9943d1c02f4ad3d1c16909511a9a91_1600x1200.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title card-headers">BREE JONES</h4>
+                    <h2 class="card-text">How to revitalize a neighborhood -- without gentrification</h2>
+                </div>
+            </div>
+            <div class="card border-0">
+                <img src="static/images/GloriaChanPacker_2022X-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title card-headers">GLORIA CHAN PACKER</h4>
+                    <h2 class="card-text">Work is not your family</h2>
+                </div>
+            </div>
+            <div class="card border-0">
+                <img src="static/images/AnthonyFauci_2022H-embed (1).jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title card-headers">ANTHONY FAUCI</h4>
+                    <h2 class="card-text">Is the pandemic actually over? It's complicated</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new-talks-with-arrow">
+        <!-- <a class="prev" onclick="plusSlide(-1, 6, event)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1, 6, event)">&#10095;</a> -->
+        <div class="small-talks">
+            <div class="small-talks-header">
+                <h4 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 550;">Newest talks</h4>
+                <h6>See all newest talks ></h6>
+            </div>
+            <div class="small-talks-articles">
+                <div class="card show border-0">
+                    <img src="static/images/TamekaMontgomery_2022X-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">TAMEKA MONTGOMERY</p>
+                        <h6 class="card-text" style="font-weight: bolder;">5 parenting tips for raising resilient, self-reliant kids</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted text-muted" style="font-size: 15px;">Posted Oct 2022</div>
+                </div>
+                <div class="card show border-0">    
+                    <img src="static/images/BreeJones_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">BREE JONES</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How to revitalize a neighborhood -- without gentrification</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card show border-0">
+                    <img src="static/images/OkongoKinyanjui_2022S-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">OKONG'O KINYANJUI</p>
+                        <h6 class="card-text" style="font-weight: bolder;">The online community supporting queer Africans</p>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card show border-0">
+                    <img src="static/images/GloriaChanPacker_2022X-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">GLORIA CHAN PACKER</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Work is not your family</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card show border-0">
+                    <img src="static/images/AndrewNg_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">ANDREW NG</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How AI could empower any business</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card show border-0">
+                    <img src="static/images/MelodieYashar_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">MELODIE YASHAR</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How to build for human life on Mars</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/OkongoKinyanjui_2022S-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">OKONG'O KINYANJUI</p>
+                        <h6 class="card-text" style="font-weight: bolder;">The online community supporting queer Africans</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/GloriaChanPacker_2022X-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">GLORIA CHAN PACKER</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Work is not your family</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/AndrewNg_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">ANDREW NG</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How AI could empower your business</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/MelodieYashar_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">MELODIE YASHAR</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How to build for human life on Mars</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/NicholasLeeper_2021X-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">NICHOLAS LEEPER</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Is there a link between cancer and heart disease?</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/AnthonyFauci_2022H-embed (1).jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">ANTHONY FAUCI</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Is the pandemic actually over? It's complicated</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle">
+        <div class="middle-content">
+            <p style="font-size: 21px;">What are your interests? (1/2)</p>
+            <p style="font-size: 16px;">You’ll receive personalized talk recommendations right here and in your inbox</p>
+            <div class="interests1">
+                <div class="interest-item">Technology</div>
+                <div class="interest-item">Science</div>
+                <div class="interest-item">Design</div>
+                <div class="interest-item">business</div>
+                <div class="interest-item">Collaboration</div>
+                <div class="interest-item">Innovation</div>
+                <div class="interest-item">Social change</div>
+                <div class="interest-item">Health</div>
+                <div class="interest-item">Nature</div>
+                <div class="interest-item">The environment</div>
+                <div class="interest-item">The future</div>
+            </div>
+            <div class="interests2">
+                <div class="interest-item">Communication</div>
+                <div class="interest-item">Activism</div>
+                <div class="interest-item">Child development</div>
+                <div class="interest-item">Personal growth</div>
+                <div class="interest-item">Humnanity</div>
+                <div class="interest-item">Society</div>
+                <div class="interest-item">Identity</div>
+                <div class="interest-item">Community</div>
+            </div>
+            <!-- <p>hey</p> -->
+            <p class="middle-link">
+                Next question<i class="bi bi-arrow-right ms-3"></i>
+            </p>
+            <p style="display: inline-block;">Already have a TED account? Sign in to see your recommendations</p>
+        </div>
+    </div>
+
+    <div class="trending-with-arrow mt-5">
+        <!-- <a class="prev" onclick="plusSlide(-1, 6, event)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1, 6, event)">&#10095;</a> -->
+        <div class="small-talks">
+            <div class="small-talks-header">
+                <h4>Trending</h4>
+            </div>
+            <div class="small-talks-articles">
+                <div class="card border-0 show">
+                    <img src="static/images/TracyEdwards_2020S-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">TRACY EDWARDS</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Stop being a bystander in your own life</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Oct 2022</div>
+                </div>
+                <div class="card border-0 show">
+                    <img src="static/images/BreeJones_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">BREE JONES</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How to revitalize a neighborhood -- without gentrification</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0 show">
+                    <img src="static/images/OkongoKinyanjui_2022S-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">OKONG'O KINYANJUI</p>
+                        <h6 class="card-text" style="font-weight: bolder;">The online community supporting queer Africans</p>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0 show">
+                    <img src="static/images/GloriaChanPacker_2022X-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">GLORIA CHAN PACKER</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Work is not your family</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0 show">
+                    <img src="static/images/AndrewNg_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">ANDREW NG</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How AI could empower any business</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0 show">
+                    <img src="static/images/MelodieYashar_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">MELODIE YASHAR</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How to build for human life on Mars</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/OkongoKinyanjui_2022S-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">OKONG'O KINYANJUI</p>
+                        <h6 class="card-text" style="font-weight: bolder;">The online community supporting queer Africans</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/GloriaChanPacker_2022X-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">GLORIA CHAN PACKER</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Work is not your family</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/AndrewNg_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">ANDREW NG</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How AI could empower your business</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/MelodieYashar_2022-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">MELODIE YASHAR</p>
+                        <h6 class="card-text" style="font-weight: bolder;">How to build for human life on Mars</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/NicholasLeeper_2021X-embed.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">NICHOLAS LEEPER</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Is there a link between cancer and heart disease?</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+                <div class="card border-0">
+                    <img src="static/images/AnthonyFauci_2022H-embed (1).jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-title">ANTHONY FAUCI</p>
+                        <h6 class="card-text" style="font-weight: bolder;">Is the pandemic actually over? It's complicated</h6>
+                    </div>
+                    <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured mt-5">
+        <div class="container" style="width: 50%;">
+            <h4 class="ms-5 mt-3 card-header">Featured</h4>
+            <div class=" ms-5 mt-3 card-body" style="color: black;"> 
+                <h3 class="card-title">Great minds think alike - or do they?</h3>
+                <p class="card-text" style="font-size: 17px;">Find out in our new podcast series, Rethinking with Adam Grant, featuring some of the world's most fascinating minds!</p>
+                <a href="#" class="card-link btn">Learn More</a>
+            </div>
+        </div>
+        <div class="featured-img" style="width: 50%;">
+            <img src="static/images/RTA_TED.com_thumbnail_2880x1620.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="small-talks">
+        <div class="small-talks-header">
+            <h4>How to shape the future of work</h4>
+            <h6 class="text-muted" style="font-size: 11px;">IN PARTNERSHIP WITH FIDELITY
+                <img src="static/images/fidelity_logo.png" class="ms-3" alt="">
+            </h6>
+        </div>
+        <div class="small-talks-articles">
+            <div class="card show border-0">
+                <img src="static/images/TamekaMontgomery_2022X-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">TAMEKA MONTGOMERY</p>
+                    <h6 class="card-text" style="font-weight: bolder;">5 parenting tips for raising resilient, self-reliant kids</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Oct 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/BreeJones_2022-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">BREE JONES</p>
+                    <h6 class="card-text" style="font-weight: bolder;">How to revitalize a neighborhood -- without gentrification</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/OkongoKinyanjui_2022S-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">OKONG'O KINYANJUI</p>
+                    <h6 class="card-text" style="font-weight: bolder;">The online community supporting queer Africans</p>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/GloriaChanPacker_2022X-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">GLORIA CHAN PACKER</p>
+                    <h6 class="card-text" style="font-weight: bolder;">Work is not your family</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/AndrewNg_2022-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">ANDREW NG</p>
+                    <h6 class="card-text" style="font-weight: bolder;">How AI could empower any business</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/MelodieYashar_2022-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">MELODIE YASHAR</p>
+                    <h6 class="card-text" style="font-weight: bolder;">How to build for human life on Mars</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="small-talks">
+        <div class="small-talks-header">
+            <h4>Art that inspires</h4>
+        </div>
+        <div class="small-talks-articles">
+            <div class="card show border-0">
+                <img src="static/images/TamekaMontgomery_2022X-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">TAMEKA MONTGOMERY</p>
+                    <h6 class="card-text" style="font-weight: bolder;">5 parenting tips for raising resilient, self-reliant kids</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Oct 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/BreeJones_2022-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">BREE JONES</p>
+                    <h6 class="card-text" style="font-weight: bolder;">How to revitalize a neighborhood -- without gentrification</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/OkongoKinyanjui_2022S-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">OKONG'O KINYANJUI</p>
+                    <h6 class="card-text" style="font-weight: bolder;">The online community supporting queer Africans</p>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/GloriaChanPacker_2022X-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">GLORIA CHAN PACKER</p>
+                    <h6 class="card-text" style="font-weight: bolder;">Work is not your family</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/AndrewNg_2022-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">ANDREW NG</p>
+                    <h6 class="card-text" style="font-weight: bolder;">How AI could empower any business</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+            <div class="card show border-0">
+                <img src="static/images/MelodieYashar_2022-embed.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-title">MELODIE YASHAR</p>
+                    <h6 class="card-text" style="font-weight: bolder;">How to build for human life on Mars</h6>
+                </div>
+                <div class="card-footer border-0 text-muted">Posted Sep 2022</div>
+            </div>
+        </div>  
+    </div>  
+
+    <div class="footer">
+        <div class="footer-header" style="font-size: 30px;">
+            TED
+        </div>
+        <div class="footer-body">
+            <div class="footer-left-content">
+                <div class="footer1">
+                    <ul>
+                        <p>Programs & initiatives</p>
+                        <li><a href="">TEDx</a></li>
+                        <li><a href="">TED Fellows</a></li>
+                        <li><a href="">TED Ed</a></li>
+                        <li><a href="">TED Translators</a></li>
+                        <li><a href="">TED Institute</a></li>
+                        <li><a href="">The Audacious Project</a></li>
+                    </ul>
+                </div>
+                <div class="footer2">
+                    <ul>
+                        <p>Ways to get TED</p>
+                        <li><a href="">Podcasts</a></li>
+                        <li><a href="">More ways to get TED</a></li>
+                    </ul>
+                </div>
+                <div class="footer3">
+                    <ul>
+                        <p>Follow TED</p>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">YouTube</a></li>
+                        <li><a href="">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer4">
+                    <ul>
+                        <p>Our community</p>
+                        <li><a href="">TED Speakers</a></li>
+                        <li><a href="">TED Fellows</a></li>
+                        <li><a href="">TED Translators</a></li>
+                        <li><a href="">TED Organizers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right-content">
+                <div class="card border-0">
+                    <h6 class="card-header border-0">Become a TED Member</h6>
+                    <div class="card-body">
+                        <p class="card-text">Engage with TED in a whole new way. TED Members earn exclusive access to unforgettable events with big names from the TED stage, inspiring conversations with a global community, and more.</p>
+                    </div>
+                </div>
+                <div class="card border-0 mt-4">
+                    <h6 class="card-header border-0">Want personalized recommendations?
+                    </h6>
+                    <div class="card-body">
+                        <p class="card-text">Join TED Recommends and get the perfect ideas selected just for you.</p>
+                    </div>
+                </div>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <!-- BOOTSTRAP JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="static/slick/slick.min.js"></script>
+</body>
+</html>
